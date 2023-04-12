@@ -1,29 +1,58 @@
 body{
-    background-color: powderblue;
-}
-
-hr{
-    /* background-color: green; */
-    border-style: none ; 
-    border-top-style: dotted ; 
-    border-color: grey ;
-    width: 15% ; 
-    /* display: none ; */
-    /* height: 5px ; */
-    /* width: 100% ; */
-    /* border-style: 
-    if one parameter is given then it will applies to all 4 dimensions
-    if two parameters is given then first parameter will be applied to top and bottom other right and left
-    if three parameters is given then first parameter will be applied to top second is left and right third to bottom 
-    */
-    /* border-style: dotted solid none ; */
-    /* border-top-style: dotted ; */
-    /* border-style: none ; */
-    /* display: none ; */
-     border-width: 10px; 
-    /* border-color: grey ; */
+    margin: 0px ;
+    text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
 h1{
-    color: "66BFBF" ;
+    margin-top: 0;
+    font-size: 5.62rem ; /* 16px == 100%  , for 90 px === 562%  , here u r using dynamic font size considering all types of devices */
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0px auto;
+    color: #66BFBF ;
+    /* line-height: 2;  */
 }
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a{
+    color: #11999E;
+}
+
+.top-container{
+    background-color: #DAF5FF;
+    position: relative ;
+    padding-top: 100px ;
+}
+
+
+
+.pro{
+    text-decoration: underline ;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px ;
+    top: 50px ;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px ;
+    bottom: 300px ;
+}
+
+h2{
+    font-size: 2rem ;
+}
+
